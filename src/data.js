@@ -77,13 +77,62 @@ export const weeklyPlan = {
   4: {
     day: 'Thursday',
     title: 'Rest / Active Recovery',
-    isRest: true,
-    activities: [
-      'Light cardio (walking/cycling)',
-      'Stretching / mobility',
-      'Optional yoga'
-    ],
-    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=400&auto=format&fit=crop'
+    isRest: false,
+    workouts:[
+{
+  group: 'Shoulders',
+  exercises: [
+    {
+      id: 'm-s-1',
+      name: 'Dumbbell Shoulder Press',
+      sets: 3,
+      reps: '15',
+      description: 'Sit or stand with dumbbells at shoulder level. Press overhead until arms are fully extended, then lower slowly.',
+      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=400&auto=format&fit=crop'
+    },
+    {
+      id: 'm-s-2',
+      name: 'Dumbbell Lateral Raise',
+      sets: 3,
+      reps: '15',
+      description: 'Hold dumbbells at your sides and raise arms outward until shoulder height, then lower slowly.',
+      image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=400&auto=format&fit=crop'
+    },
+    {
+      id: 'm-s-3',
+      name: 'Cable Lateral Raise',
+      sets: 3,
+      reps: '15',
+      description: 'Using a low pulley cable, raise your arm outward to shoulder level with controlled movement.',
+      image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=400&auto=format&fit=crop'
+    },
+    {
+      id: 'm-s-4',
+      name: 'Shoulder Press Machine',
+      sets: 3,
+      reps: '15',
+      description: 'Sit on the shoulder press machine and press handles upward until arms are extended.',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=400&auto=format&fit=crop'
+    },
+    {
+      id: 'm-s-5',
+      name: 'EZ Bar Upright Row',
+      sets: 3,
+      reps: '15',
+      description: 'Hold the EZ bar with elbows bent slightly and pull upward toward upper chest keeping elbows higher than wrists.',
+      image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=400&auto=format&fit=crop'
+    },
+    {
+      id: 'm-s-6',
+      name: 'Dumbbell Shrugs',
+      sets: 3,
+      reps: '15',
+      description: 'Hold dumbbells at your sides and raise shoulders toward ears while squeezing traps at the top.',
+      image: 'https://images.unsplash.com/photo-1599058917212-d750089bc07f?q=80&w=400&auto=format&fit=crop'
+    }
+  ]
+}
+    ]
   },
   5: {
     day: 'Friday',
